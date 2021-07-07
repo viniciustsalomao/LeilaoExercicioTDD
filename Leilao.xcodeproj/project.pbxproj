@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE0B0FA2695F596004A2CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B0F92695F596004A2CC9 /* AppDelegate.swift */; };
+		DDE0B0FC2695F596004A2CC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B0FB2695F596004A2CC9 /* SceneDelegate.swift */; };
+		DDE0B0FE2695F596004A2CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B0FD2695F596004A2CC9 /* ViewController.swift */; };
+		DDE0B1012695F596004A2CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE0B0FF2695F596004A2CC9 /* Main.storyboard */; };
+		DDE0B1032695F597004A2CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE0B1022695F597004A2CC9 /* Assets.xcassets */; };
+		DDE0B1062695F597004A2CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE0B1042695F597004A2CC9 /* LaunchScreen.storyboard */; };
+		DDE0B1112695F597004A2CC9 /* LeilaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B1102695F597004A2CC9 /* LeilaoTests.swift */; };
+		DDE0B11C2695F597004A2CC9 /* LeilaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B11B2695F597004A2CC9 /* LeilaoUITests.swift */; };
+		DDE0B1302695F60F004A2CC9 /* Leilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B12F2695F60F004A2CC9 /* Leilao.swift */; };
+		DDE0B1352695F6A1004A2CC9 /* Lance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B1342695F6A1004A2CC9 /* Lance.swift */; };
+		DDE0B13A2695F6EE004A2CC9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B1392695F6EE004A2CC9 /* Usuario.swift */; };
+		DDE0B13F2695F70D004A2CC9 /* Avaliador.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B13E2695F70D004A2CC9 /* Avaliador.swift */; };
+		DDE0B1442695FD4C004A2CC9 /* AvaliadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B1432695FD4C004A2CC9 /* AvaliadorTests.swift */; };
+		DDE0B14C26961E76004A2CC9 /* CriadorDeLeilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0B14B26961E76004A2CC9 /* CriadorDeLeilao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE0B10D2695F597004A2CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE0B0EE2695F596004A2CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE0B0F52695F596004A2CC9;
+			remoteInfo = Leilao;
+		};
+		DDE0B1182695F597004A2CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE0B0EE2695F596004A2CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE0B0F52695F596004A2CC9;
+			remoteInfo = Leilao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE0B0F62695F596004A2CC9 /* Leilao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leilao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE0B0F92695F596004A2CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE0B0FB2695F596004A2CC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDE0B0FD2695F596004A2CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE0B1002695F596004A2CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE0B1022695F597004A2CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE0B1052695F597004A2CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE0B1072695F597004A2CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE0B10C2695F597004A2CC9 /* LeilaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeilaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE0B1102695F597004A2CC9 /* LeilaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeilaoTests.swift; sourceTree = "<group>"; };
+		DDE0B1122695F597004A2CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE0B1172695F597004A2CC9 /* LeilaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeilaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE0B11B2695F597004A2CC9 /* LeilaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeilaoUITests.swift; sourceTree = "<group>"; };
+		DDE0B11D2695F597004A2CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE0B12F2695F60F004A2CC9 /* Leilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leilao.swift; sourceTree = "<group>"; };
+		DDE0B1342695F6A1004A2CC9 /* Lance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lance.swift; sourceTree = "<group>"; };
+		DDE0B1392695F6EE004A2CC9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		DDE0B13E2695F70D004A2CC9 /* Avaliador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avaliador.swift; sourceTree = "<group>"; };
+		DDE0B1432695FD4C004A2CC9 /* AvaliadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliadorTests.swift; sourceTree = "<group>"; };
+		DDE0B14B26961E76004A2CC9 /* CriadorDeLeilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriadorDeLeilao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE0B0F32695F596004A2CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0B1092695F597004A2CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0B1142695F597004A2CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE0B0ED2695F596004A2CC9 = {
+			isa = PBXGroup;
+			children = (
+				DDE0B0F82695F596004A2CC9 /* Leilao */,
+				DDE0B10F2695F597004A2CC9 /* LeilaoTests */,
+				DDE0B11A2695F597004A2CC9 /* LeilaoUITests */,
+				DDE0B0F72695F596004A2CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE0B0F72695F596004A2CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0B0F62695F596004A2CC9 /* Leilao.app */,
+				DDE0B10C2695F597004A2CC9 /* LeilaoTests.xctest */,
+				DDE0B1172695F597004A2CC9 /* LeilaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE0B0F82695F596004A2CC9 /* Leilao */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0B0F92695F596004A2CC9 /* AppDelegate.swift */,
+				DDE0B0FB2695F596004A2CC9 /* SceneDelegate.swift */,
+				DDE0B12C2695F5B2004A2CC9 /* Models */,
+				DDE0B12D2695F5BE004A2CC9 /* Views */,
+				DDE0B12E2695F5C6004A2CC9 /* Controllers */,
+				DDE0B0FF2695F596004A2CC9 /* Main.storyboard */,
+				DDE0B1022695F597004A2CC9 /* Assets.xcassets */,
+				DDE0B1042695F597004A2CC9 /* LaunchScreen.storyboard */,
+				DDE0B1072695F597004A2CC9 /* Info.plist */,
+			);
+			path = Leilao;
+			sourceTree = "<group>";
+		};
+		DDE0B10F2695F597004A2CC9 /* LeilaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0B1102695F597004A2CC9 /* LeilaoTests.swift */,
+				DDE0B1432695FD4C004A2CC9 /* AvaliadorTests.swift */,
+				DDE0B1122695F597004A2CC9 /* Info.plist */,
+			);
+			path = LeilaoTests;
+			sourceTree = "<group>";
+		};
+		DDE0B11A2695F597004A2CC9 /* LeilaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0B11B2695F597004A2CC9 /* LeilaoUITests.swift */,
+				DDE0B11D2695F597004A2CC9 /* Info.plist */,
+			);
+			path = LeilaoUITests;
+			sourceTree = "<group>";
+		};
+		DDE0B12C2695F5B2004A2CC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0B12F2695F60F004A2CC9 /* Leilao.swift */,
+				DDE0B1342695F6A1004A2CC9 /* Lance.swift */,
+				DDE0B1392695F6EE004A2CC9 /* Usuario.swift */,
+				DDE0B13E2695F70D004A2CC9 /* Avaliador.swift */,
+				DDE0B14B26961E76004A2CC9 /* CriadorDeLeilao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDE0B12D2695F5BE004A2CC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDE0B12E2695F5C6004A2CC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0B0FD2695F596004A2CC9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE0B0F52695F596004A2CC9 /* Leilao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE0B1202695F597004A2CC9 /* Build configuration list for PBXNativeTarget "Leilao" */;
+			buildPhases = (
+				DDE0B0F22695F596004A2CC9 /* Sources */,
+				DDE0B0F32695F596004A2CC9 /* Frameworks */,
+				DDE0B0F42695F596004A2CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leilao;
+			productName = Leilao;
+			productReference = DDE0B0F62695F596004A2CC9 /* Leilao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE0B10B2695F597004A2CC9 /* LeilaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE0B1232695F597004A2CC9 /* Build configuration list for PBXNativeTarget "LeilaoTests" */;
+			buildPhases = (
+				DDE0B1082695F597004A2CC9 /* Sources */,
+				DDE0B1092695F597004A2CC9 /* Frameworks */,
+				DDE0B10A2695F597004A2CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE0B10E2695F597004A2CC9 /* PBXTargetDependency */,
+			);
+			name = LeilaoTests;
+			productName = LeilaoTests;
+			productReference = DDE0B10C2695F597004A2CC9 /* LeilaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE0B1162695F597004A2CC9 /* LeilaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE0B1262695F597004A2CC9 /* Build configuration list for PBXNativeTarget "LeilaoUITests" */;
+			buildPhases = (
+				DDE0B1132695F597004A2CC9 /* Sources */,
+				DDE0B1142695F597004A2CC9 /* Frameworks */,
+				DDE0B1152695F597004A2CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE0B1192695F597004A2CC9 /* PBXTargetDependency */,
+			);
+			name = LeilaoUITests;
+			productName = LeilaoUITests;
+			productReference = DDE0B1172695F597004A2CC9 /* LeilaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE0B0EE2695F596004A2CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DDE0B0F52695F596004A2CC9 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					DDE0B10B2695F597004A2CC9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DDE0B0F52695F596004A2CC9;
+					};
+					DDE0B1162695F597004A2CC9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DDE0B0F52695F596004A2CC9;
+					};
+				};
+			};
+			buildConfigurationList = DDE0B0F12695F596004A2CC9 /* Build configuration list for PBXProject "Leilao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE0B0ED2695F596004A2CC9;
+			productRefGroup = DDE0B0F72695F596004A2CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE0B0F52695F596004A2CC9 /* Leilao */,
+				DDE0B10B2695F597004A2CC9 /* LeilaoTests */,
+				DDE0B1162695F597004A2CC9 /* LeilaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE0B0F42695F596004A2CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE0B1062695F597004A2CC9 /* LaunchScreen.storyboard in Resources */,
+				DDE0B1032695F597004A2CC9 /* Assets.xcassets in Resources */,
+				DDE0B1012695F596004A2CC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0B10A2695F597004A2CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0B1152695F597004A2CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE0B0F22695F596004A2CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE0B0FE2695F596004A2CC9 /* ViewController.swift in Sources */,
+				DDE0B1302695F60F004A2CC9 /* Leilao.swift in Sources */,
+				DDE0B13A2695F6EE004A2CC9 /* Usuario.swift in Sources */,
+				DDE0B14C26961E76004A2CC9 /* CriadorDeLeilao.swift in Sources */,
+				DDE0B0FA2695F596004A2CC9 /* AppDelegate.swift in Sources */,
+				DDE0B0FC2695F596004A2CC9 /* SceneDelegate.swift in Sources */,
+				DDE0B13F2695F70D004A2CC9 /* Avaliador.swift in Sources */,
+				DDE0B1352695F6A1004A2CC9 /* Lance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0B1082695F597004A2CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE0B1112695F597004A2CC9 /* LeilaoTests.swift in Sources */,
+				DDE0B1442695FD4C004A2CC9 /* AvaliadorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0B1132695F597004A2CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE0B11C2695F597004A2CC9 /* LeilaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE0B10E2695F597004A2CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE0B0F52695F596004A2CC9 /* Leilao */;
+			targetProxy = DDE0B10D2695F597004A2CC9 /* PBXContainerItemProxy */;
+		};
+		DDE0B1192695F597004A2CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE0B0F52695F596004A2CC9 /* Leilao */;
+			targetProxy = DDE0B1182695F597004A2CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE0B0FF2695F596004A2CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE0B1002695F596004A2CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE0B1042695F597004A2CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE0B1052695F597004A2CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE0B11E2695F597004A2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE0B11F2695F597004A2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE0B1212695F597004A2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leilao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.Leilao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE0B1222695F597004A2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leilao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.Leilao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE0B1242695F597004A2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeilaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.LeilaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leilao.app/Leilao";
+			};
+			name = Debug;
+		};
+		DDE0B1252695F597004A2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeilaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.LeilaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leilao.app/Leilao";
+			};
+			name = Release;
+		};
+		DDE0B1272695F597004A2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeilaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.LeilaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leilao;
+			};
+			name = Debug;
+		};
+		DDE0B1282695F597004A2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeilaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.LeilaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leilao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE0B0F12695F596004A2CC9 /* Build configuration list for PBXProject "Leilao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE0B11E2695F597004A2CC9 /* Debug */,
+				DDE0B11F2695F597004A2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE0B1202695F597004A2CC9 /* Build configuration list for PBXNativeTarget "Leilao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE0B1212695F597004A2CC9 /* Debug */,
+				DDE0B1222695F597004A2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE0B1232695F597004A2CC9 /* Build configuration list for PBXNativeTarget "LeilaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE0B1242695F597004A2CC9 /* Debug */,
+				DDE0B1252695F597004A2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE0B1262695F597004A2CC9 /* Build configuration list for PBXNativeTarget "LeilaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE0B1272695F597004A2CC9 /* Debug */,
+				DDE0B1282695F597004A2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE0B0EE2695F596004A2CC9 /* Project object */;
+}
